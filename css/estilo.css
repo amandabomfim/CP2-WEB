@@ -74,6 +74,11 @@
     margin-bottom: 2px;
   }
 
+  .info img {
+    width: 328px;
+    height: 182px;
+  }
+
 .conteudo {
     padding: 5% 10%;
     background-color: #F0F0F0;
