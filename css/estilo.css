@@ -121,3 +121,21 @@ figure {
 .rodape a:hover{
     background-color: #2c28288b;
 }
+
+@media(max-width:624px){
+
+    .cabecalho {
+       flex-direction: column;
+    }
+
+    .cabecalho nav {
+
+        flex-wrap: nowrap ; 
+
+    }
+
+    .cabecalho a {
+        font-size: 1em;
+        padding: 5% 0;
+    }
+}
