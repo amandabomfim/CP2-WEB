@@ -58,7 +58,6 @@
   .card img {
     width: 100%;
     height: 80%;
-    
   }
   
   .info {
@@ -75,6 +74,11 @@
     margin-bottom: 2px;
   }
 
+  .info img {
+    width: 328px;
+    height: 182px;
+  }
+
 .conteudo {
     padding: 5% 10%;
     background-color: #F0F0F0;
@@ -83,6 +87,10 @@
 .conteudo h2 {
     padding-bottom: 1%;
     text-align: center;
+}
+
+.conteudo p {
+    text-align: justify;
 }
 
 figure {
@@ -103,6 +111,19 @@ figure {
     background-color: #d9d9d9;;
 }
 
+.container button {
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 16px;
+    color: lightblue;
+}
+
+.container button a {
+    text-decoration: none;
+}
 .rodape img {
     max-width: 10%;
     display: block;
