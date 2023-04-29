@@ -160,3 +160,12 @@ figure {
         padding: 5% 0;
     }
 }
+
+@media(max-width:1169px){
+
+    .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+}
